@@ -27,7 +27,6 @@ public class ChannelGroupsManager {
 
     /**
      * 连接标识
-     *
      */
     public static final AttributeKey<String> signs = AttributeKey.valueOf("r_id");
 
@@ -42,6 +41,10 @@ public class ChannelGroupsManager {
     public static void addClinet(Channel channel, Long id) {
         channel.attr(AttributeKey.valueOf("r_id")).set(id);
         channelMap.put(id, channel);
+        online_clents.add(channel);
+    }
+
+    public static void addClinet(Channel channel) {
         online_clents.add(channel);
     }
 
