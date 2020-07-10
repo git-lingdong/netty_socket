@@ -1,0 +1,4 @@
+server:
+  port: 8989
+
+netty.server.user.port: 1514
