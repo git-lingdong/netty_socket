@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lingdong</groupId>
-    <artifactId>netty_socket</artifactId>
+    <artifactId>netty_sokect</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>netty_socket</name>
+    <name>netty_sokect</name>
     <description>netty 练习实例</description>
 
     <properties>
